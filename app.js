@@ -1,0 +1,1 @@
+alert("This is Just a Practice Sample");
