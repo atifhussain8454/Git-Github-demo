@@ -6,3 +6,39 @@
 }
 
 /* Body */
+
+body {
+    background-color: rgb(255, 205, 3);
+}
+h1 {
+    color: cornsilk;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding: 40px 80px;
+}
+button {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(172, 235, 24);
+    border-radius: 10px;
+    border: none;
+    transition-duration: 10s;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+button:hover {
+    width: 1400px;
+    height: 500px;
+    font-size: 50px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 900;
+}
